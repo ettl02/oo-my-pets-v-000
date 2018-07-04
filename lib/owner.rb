@@ -25,5 +25,5 @@ end
  def self.count
    OWNERS.size
  end
- end 
+ end
 # end
