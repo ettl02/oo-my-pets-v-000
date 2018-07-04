@@ -22,19 +22,19 @@ def self.reset_all
 end
 
 #
- def self.count
+def self.count
    OWNERS.size
  end
 
- def say_species
+def say_species
     "I am a #{species}."
   end
 
-  def buy_fish(name)
+def buy_fish(name)
     pets[:fishes] << Fish.new(name)
   end
 
-  def buy_dog(name)
+def buy_dog(name)
   pets[:dogs] << Dog.new(name)
 end
 
